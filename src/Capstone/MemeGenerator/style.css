@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden; 
+    width: 100%;
+
+}
+
+.meme-header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(99,9,121,1) 44%, rgba(0,212,255,1) 96%);
+    color: white;
+    width: auto;
+    box-sizing: border-box
+}
+
+.contain {
+    display: inline-flex;
+    padding: 30px;
+}
+
+.meme-header p {
+    font-family: Comic Sans Ms;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.meme-header img {
+    max-width: 260px;
+    max-height: 125px;
+    width: auto;
+    height: auto
+}
+
+.meme-header span {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    font-family: Comic Sans MS;
+    font-size: 20px
+}
+
+button {
+    width: 500px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.meme {
+    position: relative;
+    display: inline-block;
+}
+
+.meme .top {
+    position: absolute;
+    word-wrap: break-word;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 1%; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 250%;
+        color: #fff;
+        width: auto; 
+        height: auto;
+        -webkit-text-stroke: 2.5px black;
+}
+
+.meme .bottom {
+        position: absolute;
+    word-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-word;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 90%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 250%;
+        color: #fff;
+        width: auto; 
+        height: auto;
+        -webkit-text-stroke: 2.5px black;
+}
+
+.meme img {
+    max-width: 760px;
+    max-height: 625px;
+    width: auto;
+    height: auto;
+}
