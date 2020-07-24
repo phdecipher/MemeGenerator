@@ -7,10 +7,11 @@ Behold! My greatest creation, yet!
 Generates Memes with two-panels (top, bottom)
 
 ## Resources
-React
-Node.js
+React \n
+Node.js \n
 ImgFlip API
 
 
 ## Note:
 Files outside the Capstone folder are not related with the project. So I have yet to clean this repository up.
+
