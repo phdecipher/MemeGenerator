@@ -1,15 +1,13 @@
 ## The Ultimate MemeGenerator 3000
 
-Behold! My greatest creation, yet!
+Behold! My greatest creation, yet! (My First Repository)
 
 ## What it does
 
 Generates Memes with two-panels (top, bottom)
 
 ## Resources
-React \n
-Node.js \n
-ImgFlip API
+React, Node.js, ImgFlip API
 
 
 ## Note:
